@@ -1,0 +1,3507 @@
+{
+	"variables": [],
+	"info": {
+		"name": "MSA-CORPORA",
+		"_postman_id": "bfaac65a-bdc0-2eb2-bf09-164e3f976d79",
+		"description": "A collection of small corpuses of interesting data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "corpora",
+			"description": "Folder for corpora",
+			"item": [
+				{
+					"name": "The first 1000 prime numbers",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/mathematics/primes.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of trigonometric functions, formulas, equations, etc",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/mathematics/trigonometry.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "The first 1000 numbers in the Fibonnaci Sequence",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/mathematics/fibonnaci-sequence.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of recipe instructions",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/combine.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of condiments",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/condiments.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Approximate cooking times for various vegetables",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/vegetable-cooking-times.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of vegetables",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/vegetables.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of sandwiches",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/sandwiches.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "The 1000 most popular apple cultivars in the USDA's Pomological Watercolor collection",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/apple-cultivars.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of curds, cheeses, and other fermented dairy products",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/curds.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of classic breads and sweet pastries",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/breads-and-pastries.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of sausages",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/sausages.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of words commonly used to describe wine",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/wine-descriptions.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of pizza toppings",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/pizza-toppings.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of beer styles",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/beer-styles.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Capsicum cultivars (hot peppers)",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/hot-peppers.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of herbs and spices, and mixtures of the two",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/herbs-n-spices.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of fruits",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/fruits.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of the top 1000 most appearing menu items from the 1850s to today",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/menu-items.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of beer categories",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/beer-categories.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Types of tea",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/foods/tea.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of generic pharmaceutical drug name stems",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/medicine/drug-name-stems.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "International Statistical Classification of Diseases and Related Health Problems, 10th revision",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/medicine/diagnoses.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of pharmaceutical drug names",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/medicine/drugs.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A partial list of the hospitals in the United States",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/medicine/hospitals.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of laundry care instructions",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/instructions/laundry-care.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of federal agencies",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/governments/us-federal-agencies.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of NSA project code names",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/governments/nsa-projects.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of uk political parties",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/governments/uk-political-parties.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Code names for US Military Operations",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/governments/us-mil-operations.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "This is a list of government surveillance projects and related databases",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/governments/mass-surveillance-project-names.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/plants/flowers.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "420 popular strains of cannabis",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/plants/cannabis.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Current (as of 2015) teams in the NFL and where they play",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/sports/nfl-teams.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "The 954 most common RGB monitor colors, in the xkcd color name survey",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/colors/xkcd.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "The top 200 most popular palettes on colourlovers.com",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/colors/palettes.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "List of assorted paint colors from various brands",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/colors/paints.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "List of Crayola crayon standard colors",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/colors/crayola.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "List of named HTML colors",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/colors/web-colors.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Netflix Movie Categories",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/film-tv/netflix-categories.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "1000 entries from the list of TV shows at wikipedia.org/wiki/List_of_television_programs_by_name",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/film-tv/tv-shows.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of toxic chemicals",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/science/toxic-chemicals.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "List of names of the first 1000 numbered minor planets",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/science/minor-planets.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "The list of the 118 elements of the periodic table",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/science/elements.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Analogous objects for various hail sizes, adapted from http://www.spc.noaa.gov/misc/tables/hailsize.htm",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/science/hail-size.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Planets (including dwarf planets as recognized by the IAU) that orbit the Sun, with their natural satellites",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/science/planets.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/science/pregnancy.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of LISP dialects",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/technology/lisp.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of knot names",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/technology/knots.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "names of technologies related to computer science",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/technology/computer-sciences.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of programming languages",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/technology/programming-languages.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Photo sharing websites",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/technology/photo-sharing-websites.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "weapons used in mass shootings in the U.S.A",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/technology/guns-n-rifles.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "new or emerging technologies",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/technology/new-technologies.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Social networking websites",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/technology/social-networking-websites.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of home appliances",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/technology/appliances.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Video hosting websites",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/technology/video-hosting-websites.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list (ooh!) of firework effects (aah!)",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/technology/fireworks.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Artists who have been added to the Rock N' Roll Hall of Fame",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/music/rock-hall-of-fame.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of guitar manufacturers",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/music/a-list-of-guitar-manufacturers.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of musical genres taken from wikipedia article titles",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/music/genres.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Bands that have opened for Tool",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/music/bands-that-have-opened-for-tool.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "a list of women classical guitarists",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/music/female-classical-guitarists.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Actors and characters in Hamilton: An American Musical",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/music/hamilton-musical-obcrecording-actors-characters.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Music videos broadcast on MTV's first day",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/music/mtv-day-one.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of modernist art isms",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/art/isms.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Setting and location archetypes",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/archetypes/setting.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Archetypal events",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/archetypes/event.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Common character archetypes",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/archetypes/character.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Artifact archetypes",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/archetypes/artifact.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Different kinds of rooms",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/architecture/rooms.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Ways to enter or exit a place",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/architecture/passages.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Deities and supernatural creatures from the works of Lovecraft and the Cthulhu mythos",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/mythology/lovecraft.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of monsters and other mythic creatures",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/mythology/monsters.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Gods and goddesses from Greek myth",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/mythology/greek-gods.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Monsters from Greek myth",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/mythology/greek-monsters.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Titans from Greek myth",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/mythology/greek-titans.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Hebrew names of God used in the Old Testament Bible",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/mythology/hebrew-god.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Gods and goddesses of norse and germanic myth",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/mythology/norse-gods.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Top 1000 U.S. cities by 2013 population",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/geography/us-cities.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of countries",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/geography/countries.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of rivers",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/geography/rivers.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of Canadian provinces and territories",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/geography/canada-provinces-and-territories.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Two lists: one for English towns, one for English cities",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/geography/english-towns-cities.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Venues organized by category",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/geography/venues.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of oceans and seas",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/geography/oceans.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "London Underground stations, with their lines and Travelcard zones",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/geography/london-underground-stations.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Top 100 Canadian municipalities by 2011 population",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/geography/canadian-municipalities.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Tarot card interpretations, from Mark McElroy's _A Guide to Tarot Meanings_",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/divination/tarot-interpretations.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Zodiac signs and associated information, both Western and Eastern",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/divination/zodiac.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Tile distribution and points for the English-language edition of Scrabble",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/games/scrabble.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Pie categories and colors from Trivial Pursuit",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/games/trivial-pursuit.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A sampling of 1000 Jeopardy questions and metadata. ",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/games/jeopardy-questions.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of professional wrestling moves",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/games/wrestling-moves.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Street Fighter II fighting moves",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/games/street-fighter-ii.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "The list of Pokemon from the Pokedex-DB",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/games/pokemon.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Organized components from the Dark Souls III message system",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/games/dark-souls-iii-messages.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Characters, rooms and weapons from the board game Cluedo / Clue",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/games/cluedo.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of video games banned in Brazil",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/games/bannedGames/brazil/banned-list.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of video games banned in Argentina",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/games/bannedGames/argentina/banned-list.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of video games banned in China",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/games/bannedGames/china/banned-list.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of video games banned in Denmark",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/games/bannedGames/denmark/banned-list.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Carbon allotropes",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/carbon-allotropes.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Building materials",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/building-materials.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Technical fabrics",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/technical-fabrics.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Natural materials",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/natural-materials.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Metals",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/metals.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Decorative stones",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/decorative-stones.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Fibers",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/fibers.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Plastic brands",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/plastic-brands.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Layperson metals",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/layperson-metals.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of the names of materials commonly used as gemstones",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/gemstones.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Fabrics",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/fabrics.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Sculpture materials",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/sculpture-materials.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Abridged body fluids",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/abridged-body-fluids.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Packaging",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/materials/packaging.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Common expletives and spelling variants used in internet comments",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/expletives.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Closed pairs in English i.e both words rhyme with each other and only with each other",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/closed-pairs.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of encouraging words to tell someone about something they created",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/encouraging-words.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of quotes from US Presidents",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/us-president-quotes.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of proverbs sourced from http://tww.id.au/proverbs/proverbs.html",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/proverbs.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of Harry Potter spells and descriptions",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/spells.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Czech stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/cs.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Slovak stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/sk.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Arabic stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/ar.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Swedish stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/sv.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Norwegian stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/no.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Arabic stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/bg.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "English stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/en.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Danish stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/da.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Latvian stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/lv.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "German stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/de.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Turkish stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/tr.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Spanish stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/es.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Russian stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/ru.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "French stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/fr.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Portuguese stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/pt.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Dutch stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/nl.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Finnish stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/fi.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Japanese stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/jp.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Polish stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/pl.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Italian stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/it.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Greek stop words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/stopwords/gr.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of common 4-letter words followed by crossword/thesaurus-style hints for that word",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/word-clues/clues-four.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of common 6-letter words followed by crossword/thesaurus-style hints for that word",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/word-clues/clues-six.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of common 5-letter words followed by crossword/thesaurus-style hints for that word",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/word-clues/clues-five.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of English adverbs",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/adverbs.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "English words for which there is no perfect rhyme",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/rhymeless-words.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "All the Unicode emoji",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/emoji/emoji.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A general corpus of emoji of sea/water creatures",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/emoji/sea-emoji.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A general corpus of positive emoji",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/emoji/positive-emoji.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A general corpus of cute kaomoji",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/emoji/cute-kaomoji.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "List of personal nouns in the 1890 Webster's Unabridged Dictionary",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/personal-nouns.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A partial list of English compound words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/compounds.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Words of wisdom by Oprah Winfrey",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/oprah-quotes.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of English adjectives",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/adjs.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Commonly mistaken English phrases most likely caused by hearing them rather than reading them",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/eggcorns.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Common English words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/common.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/prefix-root-suffix.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Collection of phrases used for testing of Voice over IP, cellular, and other telephone systems",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/harvard-sentences.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of English nouns",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/nouns.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of English verbs",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/verbs.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "List of some of the strangest sounding words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/strange-words.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Confusing or misleading headlines",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/crash-blossoms.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Phrasess coined by Shakespeare, from http://www.pathguy.com/shakeswo.htm",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/literature/shakespeare-phrases.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Mr Men and Little Miss characters",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/literature/mr-men-little-miss.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Shakespeare's sonnets",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/literature/shakespeare-sonnets.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Words coined by Shakespeare, from http://www.pathguy.com/shakeswo.htm",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/literature/shakespeare-words.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of states of drunkenness",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/states-of-drunkenness.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Resume action words",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/resume-action-words.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of exclamatory words and expressions",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/words/interjections.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "List of household objects",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/objects/objects.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Winners in the Corpora Brackets, from https://twitter.com/corporabrackets",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/objects/corpora-winners.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of car manufacturers",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/corporations/cars.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Corporations of the NASDAQ 100",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/corporations/nasdaq.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "The 2014 Fortune 500 list",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/corporations/fortune500.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of all industries on LinkedIn, as of May 21, 2013",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/corporations/industries.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of newspapers scraped in early 2013",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/corporations/newspapers.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Corporations of the Dow Jones Industrial Average",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/corporations/djia.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of dinosaurs",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/animals/dinosaurs.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of common animals",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/animals/common.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Birds of North America, grouped by family",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/animals/birds-north-america.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Birds of Antarctica, grouped by family",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/animals/birds-antarctica.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of dog breeds",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/animals/dogs.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of common Spanish last names",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/spanish-last-names.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Copy of JSON retrieved from https://www.govtrack.us/api/v2/role?role_type=president",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/us-presidents.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A bunch of WWE wrestlers nicknames",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/wrestlers.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A bunch of British actors",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/british-actors.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Last names of people, from Statistics Norway 2015. Sorted from high to low distribution",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/norway-last-names.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "First names of girls, from Statistics Norway 2015. Sorted from high to low distribution",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/norway-first-names-girls.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Character names from Tolkien's Middle Earth",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/tolkien-character-names.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of rich people from a Forbes listicle, including the source article, img, and name",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/rich-people.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of famous authors last names",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/authors.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Deceased drummers from the fictional rock band Spinal Tap, taken from Wikipedia",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/spinal-tap-drummers.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of words that naturally complete the phrase: They were feeling...",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/moods.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "First names of men and women, pulled from the US Census for the 2000s",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/first-names.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "English honorifics",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/english-honorifics.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of common human body parts",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/body-parts.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Suffixes taken from a form on an airline website",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/suffixes.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "First names of boys, pulled from Statistics Norway 2015. Sorted from high to low distribution",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/norway-first-names-boys.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Famous duos",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/famous-duos.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of adjectives for describing people",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/descriptions.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of occupations (jobs that people might have)",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/occupations.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "All the candidates in the 2016 United States election",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/2016-us-presidential-candidates.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Third person personal pronouns with case",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/third-person-pronouns.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "A list of common Spanish first names of men and women",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/spanish-first-names.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Celebrities",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/celebrities.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Last names of people, pulled from the US Census for the 2000s",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/last-names.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "List of particularly famous scientists",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/scientists.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Prefixes taken from a form on an airline website",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/humans/prefixes.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/religion/fictional-religions.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/religion/christian-saints.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/religion/religions.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/religion/parody-religions.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/semi-secret.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/animal-welfare.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/fraternities/sororities.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/fraternities/coeducational-fraternities.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/fraternities/fraternities.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/fraternities/professional.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/fraternities/defunct.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/fraternities/service.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/united-arab-emirates.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/iran.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/australia.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/united-kingdom.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/canada.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/turkey.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/ukraine.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/kazakhstan.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/united-nations.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/india.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/united-states.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/tunisia.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/egypt.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/china.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/russia.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/european-union.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/saudi-arabia.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the corpora data file",
+					"request": {
+						"url": "http://localhost:9903/corpora/data/societies-and-groups/designated-terrorist-groups/israel.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ms",
+			"description": "Folder for ms",
+			"item": [
+				{
+					"name": "Return the microservice version number",
+					"request": {
+						"url": "http://localhost:9903/ms/version",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the microservice name",
+					"request": {
+						"url": "http://localhost:9903/ms/name",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the microservice readme in markdown",
+					"request": {
+						"url": "http://localhost:9903/ms/readme.md",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the microservice readme in html",
+					"request": {
+						"url": "http://localhost:9903/ms/readme.html",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "nginx",
+			"description": "Folder for nginx",
+			"item": [
+				{
+					"name": "Return stats about Nginx in JSON",
+					"request": {
+						"url": "http://localhost:9903/nginx/stats.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return a dashboard displaying the stats from Nginx",
+					"request": {
+						"url": "http://localhost:9903/nginx/stats.html",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "swagger",
+			"description": "Folder for swagger",
+			"item": [
+				{
+					"name": "Return the microservice Swagger JSON file",
+					"request": {
+						"url": "http://localhost:9903/swagger/swagger.json",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Return the Swagger-UI page",
+					"request": {
+						"url": "http://localhost:9903/swagger/#",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
