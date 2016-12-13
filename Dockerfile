@@ -11,6 +11,7 @@ ADD swagger.json /opt/swagger/swagger.json
 # Copy all the other application files to /opt/app
 ADD run.sh /opt/ms/
 ADD app.rb /opt/ms/
+ADD corpora /opt/ms/corpora
 
 # Execute the run script
 CMD ["ash", "/opt/ms/run.sh"]

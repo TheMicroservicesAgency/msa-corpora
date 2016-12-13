@@ -1,0 +1,3238 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "MSA-CORPORA",
+        "description": "A collection of small corpuses of interesting data",
+        "version": "1.0.0"
+    },
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/ms/version": {
+            "get": {
+                "tags": [
+                    "msa-standard"
+                ],
+                "summary": "Return the microservice version number",
+                "responses": {
+                    "200": {
+                        "description": "the version number"
+                    }
+                }
+            }
+        },
+        "/ms/name": {
+            "get": {
+                "tags": [
+                    "msa-standard"
+                ],
+                "summary": "Return the microservice name",
+                "responses": {
+                    "200": {
+                        "description": "the name"
+                    }
+                }
+            }
+        },
+        "/ms/readme.md": {
+            "get": {
+                "tags": [
+                    "msa-standard"
+                ],
+                "summary": "Return the microservice readme in markdown",
+                "responses": {
+                    "200": {
+                        "description": "the readme in markdown"
+                    }
+                }
+            }
+        },
+        "/ms/readme.html": {
+            "get": {
+                "tags": [
+                    "msa-standard"
+                ],
+                "summary": "Return the microservice readme in html",
+                "responses": {
+                    "200": {
+                        "description": "the readme in html"
+                    }
+                }
+            }
+        },
+        "/swagger/swagger.json": {
+            "get": {
+                "tags": [
+                    "msa-standard"
+                ],
+                "summary": "Return the microservice Swagger JSON file",
+                "responses": {
+                    "200": {
+                        "description": "the Swagger JSON file"
+                    }
+                }
+            }
+        },
+        "/swagger/#": {
+            "get": {
+                "tags": [
+                    "msa-standard"
+                ],
+                "summary": "Return the Swagger-UI page",
+                "responses": {
+                    "200": {
+                        "description": "the Swagger-UI page"
+                    }
+                }
+            }
+        },
+        "/nginx/stats.json": {
+            "get": {
+                "tags": [
+                    "msa-standard"
+                ],
+                "summary": "Return stats about Nginx in JSON",
+                "responses": {
+                    "200": {
+                        "description": "the stats about Nginx in JSON"
+                    }
+                }
+            }
+        },
+        "/nginx/stats.html": {
+            "get": {
+                "tags": [
+                    "msa-standard"
+                ],
+                "summary": "Return a dashboard displaying the stats from Nginx",
+                "responses": {
+                    "200": {
+                        "description": "the Nginx stats dashboard"
+                    }
+                }
+            }
+        },
+        "/corpora/data/mathematics/primes.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "The first 1000 prime numbers",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/mathematics/trigonometry.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of trigonometric functions, formulas, equations, etc",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/mathematics/fibonnaci-sequence.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "The first 1000 numbers in the Fibonnaci Sequence",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/combine.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of recipe instructions",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/condiments.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of condiments",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/vegetable-cooking-times.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Approximate cooking times for various vegetables",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/vegetables.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of vegetables",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/sandwiches.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of sandwiches",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/apple-cultivars.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "The 1000 most popular apple cultivars in the USDA's Pomological Watercolor collection",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/curds.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of curds, cheeses, and other fermented dairy products",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/breads-and-pastries.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of classic breads and sweet pastries",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/sausages.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of sausages",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/wine-descriptions.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of words commonly used to describe wine",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/pizza-toppings.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of pizza toppings",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/beer-styles.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of beer styles",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/hot-peppers.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Capsicum cultivars (hot peppers)",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/herbs-n-spices.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of herbs and spices, and mixtures of the two",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/fruits.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of fruits",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/menu-items.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of the top 1000 most appearing menu items from the 1850s to today",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/beer-categories.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of beer categories",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/foods/tea.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Types of tea",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/medicine/drug-name-stems.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of generic pharmaceutical drug name stems",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/medicine/diagnoses.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "International Statistical Classification of Diseases and Related Health Problems, 10th revision",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/medicine/drugs.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of pharmaceutical drug names",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/medicine/hospitals.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A partial list of the hospitals in the United States",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/instructions/laundry-care.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of laundry care instructions",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/governments/us-federal-agencies.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of federal agencies",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/governments/nsa-projects.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of NSA project code names",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/governments/uk-political-parties.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of uk political parties",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/governments/us-mil-operations.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Code names for US Military Operations",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/governments/mass-surveillance-project-names.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "This is a list of government surveillance projects and related databases",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/plants/flowers.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/plants/cannabis.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "420 popular strains of cannabis",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/sports/nfl-teams.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Current (as of 2015) teams in the NFL and where they play",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/colors/xkcd.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "The 954 most common RGB monitor colors, in the xkcd color name survey",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/colors/palettes.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "The top 200 most popular palettes on colourlovers.com",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/colors/paints.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "List of assorted paint colors from various brands",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/colors/crayola.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "List of Crayola crayon standard colors",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/colors/web-colors.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "List of named HTML colors",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/film-tv/netflix-categories.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Netflix Movie Categories",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/film-tv/tv-shows.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "1000 entries from the list of TV shows at wikipedia.org/wiki/List_of_television_programs_by_name",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/science/toxic-chemicals.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of toxic chemicals",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/science/minor-planets.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "List of names of the first 1000 numbered minor planets",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/science/elements.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "The list of the 118 elements of the periodic table",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/science/hail-size.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Analogous objects for various hail sizes, adapted from http://www.spc.noaa.gov/misc/tables/hailsize.htm",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/science/planets.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Planets (including dwarf planets as recognized by the IAU) that orbit the Sun, with their natural satellites",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/science/pregnancy.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/technology/lisp.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of LISP dialects",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/technology/knots.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of knot names",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/technology/computer-sciences.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "names of technologies related to computer science",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/technology/programming-languages.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of programming languages",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/technology/photo-sharing-websites.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Photo sharing websites",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/technology/guns-n-rifles.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "weapons used in mass shootings in the U.S.A",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/technology/new-technologies.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "new or emerging technologies",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/technology/social-networking-websites.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Social networking websites",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/technology/appliances.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of home appliances",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/technology/video-hosting-websites.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Video hosting websites",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/technology/fireworks.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list (ooh!) of firework effects (aah!)",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/music/rock-hall-of-fame.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Artists who have been added to the Rock N' Roll Hall of Fame",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/music/a-list-of-guitar-manufacturers.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of guitar manufacturers",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/music/genres.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of musical genres taken from wikipedia article titles",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/music/bands-that-have-opened-for-tool.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Bands that have opened for Tool",
+
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/music/female-classical-guitarists.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "a list of women classical guitarists",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/music/hamilton-musical-obcrecording-actors-characters.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Actors and characters in Hamilton: An American Musical",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/music/mtv-day-one.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Music videos broadcast on MTV's first day",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/art/isms.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of modernist art isms",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/archetypes/setting.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Setting and location archetypes",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/archetypes/event.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Archetypal events",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/archetypes/character.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Common character archetypes",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/archetypes/artifact.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Artifact archetypes",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/architecture/rooms.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Different kinds of rooms",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/architecture/passages.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Ways to enter or exit a place",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/mythology/lovecraft.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Deities and supernatural creatures from the works of Lovecraft and the Cthulhu mythos",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/mythology/monsters.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of monsters and other mythic creatures",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/mythology/greek-gods.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Gods and goddesses from Greek myth",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/mythology/greek-monsters.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Monsters from Greek myth",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/mythology/greek-titans.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Titans from Greek myth",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/mythology/hebrew-god.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Hebrew names of God used in the Old Testament Bible",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/mythology/norse-gods.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Gods and goddesses of norse and germanic myth",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/geography/us-cities.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Top 1000 U.S. cities by 2013 population",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/geography/countries.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of countries",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/geography/rivers.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of rivers",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/geography/canada-provinces-and-territories.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of Canadian provinces and territories",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/geography/english-towns-cities.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Two lists: one for English towns, one for English cities",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/geography/venues.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Venues organized by category",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/geography/oceans.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of oceans and seas",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/geography/london-underground-stations.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "London Underground stations, with their lines and Travelcard zones",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/geography/canadian-municipalities.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Top 100 Canadian municipalities by 2011 population",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/divination/tarot-interpretations.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Tarot card interpretations, from Mark McElroy's _A Guide to Tarot Meanings_",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/divination/zodiac.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Zodiac signs and associated information, both Western and Eastern",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/games/scrabble.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Tile distribution and points for the English-language edition of Scrabble",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/games/trivial-pursuit.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Pie categories and colors from Trivial Pursuit",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/games/jeopardy-questions.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A sampling of 1000 Jeopardy questions and metadata. ",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/games/wrestling-moves.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of professional wrestling moves",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/games/street-fighter-ii.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Street Fighter II fighting moves",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/games/pokemon.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "The list of Pokemon from the Pokedex-DB",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/games/dark-souls-iii-messages.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Organized components from the Dark Souls III message system",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/games/cluedo.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Characters, rooms and weapons from the board game Cluedo / Clue",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/games/bannedGames/brazil/banned-list.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of video games banned in Brazil",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/games/bannedGames/argentina/banned-list.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of video games banned in Argentina",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/games/bannedGames/china/banned-list.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of video games banned in China",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/games/bannedGames/denmark/banned-list.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of video games banned in Denmark",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/carbon-allotropes.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Carbon allotropes",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/building-materials.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Building materials",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/technical-fabrics.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Technical fabrics",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/natural-materials.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Natural materials",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/metals.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Metals",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/decorative-stones.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Decorative stones",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/fibers.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Fibers",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/plastic-brands.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Plastic brands",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/layperson-metals.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Layperson metals",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/gemstones.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of the names of materials commonly used as gemstones",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/fabrics.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Fabrics",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/sculpture-materials.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Sculpture materials",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/abridged-body-fluids.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Abridged body fluids",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/materials/packaging.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Packaging",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/expletives.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Common expletives and spelling variants used in internet comments",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/closed-pairs.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Closed pairs in English i.e both words rhyme with each other and only with each other",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/encouraging-words.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of encouraging words to tell someone about something they created",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/us-president-quotes.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of quotes from US Presidents",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/proverbs.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of proverbs sourced from http://tww.id.au/proverbs/proverbs.html",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/spells.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of Harry Potter spells and descriptions",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/cs.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Czech stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/sk.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Slovak stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/ar.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Arabic stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/sv.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Swedish stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/no.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Norwegian stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/bg.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Arabic stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/en.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "English stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/da.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Danish stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/lv.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Latvian stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/de.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "German stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/tr.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Turkish stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/es.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Spanish stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/ru.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Russian stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/fr.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "French stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/pt.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Portuguese stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/nl.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Dutch stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/fi.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Finnish stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/jp.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Japanese stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/pl.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Polish stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/it.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Italian stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/stopwords/gr.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Greek stop words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/word-clues/clues-four.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of common 4-letter words followed by crossword/thesaurus-style hints for that word",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/word-clues/clues-six.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of common 6-letter words followed by crossword/thesaurus-style hints for that word",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/word-clues/clues-five.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of common 5-letter words followed by crossword/thesaurus-style hints for that word",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/adverbs.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of English adverbs",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/rhymeless-words.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "English words for which there is no perfect rhyme",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/emoji/emoji.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "All the Unicode emoji",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/emoji/sea-emoji.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A general corpus of emoji of sea/water creatures",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/emoji/positive-emoji.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A general corpus of positive emoji",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/emoji/cute-kaomoji.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A general corpus of cute kaomoji",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/personal-nouns.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "List of personal nouns in the 1890 Webster's Unabridged Dictionary",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/compounds.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A partial list of English compound words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/oprah-quotes.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Words of wisdom by Oprah Winfrey",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/adjs.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of English adjectives",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/eggcorns.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Commonly mistaken English phrases most likely caused by hearing them rather than reading them",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/common.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Common English words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/prefix-root-suffix.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/harvard-sentences.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Collection of phrases used for testing of Voice over IP, cellular, and other telephone systems",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/nouns.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of English nouns",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/verbs.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of English verbs",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/strange-words.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "List of some of the strangest sounding words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/crash-blossoms.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Confusing or misleading headlines",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/literature/shakespeare-phrases.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Phrasess coined by Shakespeare, from http://www.pathguy.com/shakeswo.htm",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/literature/mr-men-little-miss.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Mr Men and Little Miss characters",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/literature/shakespeare-sonnets.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Shakespeare's sonnets",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/literature/shakespeare-words.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Words coined by Shakespeare, from http://www.pathguy.com/shakeswo.htm",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/states-of-drunkenness.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of states of drunkenness",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/resume-action-words.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Resume action words",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/words/interjections.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of exclamatory words and expressions",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/objects/objects.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "List of household objects",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/objects/corpora-winners.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Winners in the Corpora Brackets, from https://twitter.com/corporabrackets",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/corporations/cars.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of car manufacturers",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/corporations/nasdaq.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Corporations of the NASDAQ 100",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/corporations/fortune500.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "The 2014 Fortune 500 list",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/corporations/industries.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of all industries on LinkedIn, as of May 21, 2013",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/corporations/newspapers.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of newspapers scraped in early 2013",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/corporations/djia.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Corporations of the Dow Jones Industrial Average",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/animals/dinosaurs.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of dinosaurs",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/animals/common.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of common animals",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/animals/birds-north-america.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "Birds of North America, grouped by family",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/animals/birds-antarctica.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Birds of Antarctica, grouped by family",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/animals/dogs.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "A list of dog breeds",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/spanish-last-names.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of common Spanish last names",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/us-presidents.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Copy of JSON retrieved from https://www.govtrack.us/api/v2/role?role_type=president",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/wrestlers.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A bunch of WWE wrestlers nicknames",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/british-actors.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A bunch of British actors",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/norway-last-names.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Last names of people, from Statistics Norway 2015. Sorted from high to low distribution",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/norway-first-names-girls.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "First names of girls, from Statistics Norway 2015. Sorted from high to low distribution",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/tolkien-character-names.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Character names from Tolkien's Middle Earth",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/rich-people.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of rich people from a Forbes listicle, including the source article, img, and name",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/authors.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of famous authors last names",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/spinal-tap-drummers.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Deceased drummers from the fictional rock band Spinal Tap, taken from Wikipedia",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/moods.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of words that naturally complete the phrase: They were feeling...",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/first-names.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "First names of men and women, pulled from the US Census for the 2000s",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/english-honorifics.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary":  "English honorifics",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/body-parts.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of common human body parts",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/suffixes.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Suffixes taken from a form on an airline website",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/norway-first-names-boys.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "First names of boys, pulled from Statistics Norway 2015. Sorted from high to low distribution",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/famous-duos.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Famous duos",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/descriptions.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of adjectives for describing people",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/occupations.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of occupations (jobs that people might have)",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/2016-us-presidential-candidates.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "All the candidates in the 2016 United States election",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/third-person-pronouns.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Third person personal pronouns with case",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/spanish-first-names.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "A list of common Spanish first names of men and women",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/celebrities.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Celebrities",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/last-names.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Last names of people, pulled from the US Census for the 2000s",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/scientists.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "List of particularly famous scientists",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/humans/prefixes.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Prefixes taken from a form on an airline website",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/religion/fictional-religions.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/religion/christian-saints.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/religion/religions.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/religion/parody-religions.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/semi-secret.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/animal-welfare.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/fraternities/sororities.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/fraternities/coeducational-fraternities.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/fraternities/fraternities.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/fraternities/professional.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/fraternities/defunct.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/fraternities/service.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/united-arab-emirates.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/iran.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/australia.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/united-kingdom.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/canada.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/turkey.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/ukraine.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/kazakhstan.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/united-nations.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/india.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/united-states.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/tunisia.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/egypt.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/china.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/russia.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/european-union.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/saudi-arabia.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        },
+        "/corpora/data/societies-and-groups/designated-terrorist-groups/israel.json": {
+            "get": {
+                "tags": [
+                    "msa-corpora"
+                ],
+                "summary": "Return the corpora data file",
+                "responses": {
+                    "200": {
+                        "description": "the json data file"
+                    }
+                }
+            }
+        }
+    }
+}
