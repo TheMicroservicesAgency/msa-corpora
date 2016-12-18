@@ -94,4 +94,4 @@ Here are a few interesting ones :
 
 ## About
 
-A project by the [Microservices Agency](https://microservices.agency).
+A project by the [Microservices Agency](http://microservices.agency).
