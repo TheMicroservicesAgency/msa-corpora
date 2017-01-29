@@ -1,5 +1,11 @@
 require 'sinatra'
 
+# executed only once, at startup
+configure do
+  # to prevents errors due to Rack::Protection::JsonCsrf
+  disable :protection
+end
+
 # Before processing each http request
 before do
   content_type 'application/json'
